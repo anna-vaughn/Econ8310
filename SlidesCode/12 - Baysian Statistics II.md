@@ -40,9 +40,23 @@ Let's go to the code [here](https://github.com/dustywhite7/Econ8310/blob/master/
 
 ---
 
+# Note on Prior Selection
+
+Why choose better priors?
+
+Part of the challenge with a Bayesian model is compuational. Our prior is intended to help us search the parameter space effectively in order to find truth. If we cast too wide a net, we slow things down (they're alread not fast), and we make it harder to find truth.
+
+---
+
 # Updated priors
 
 ![](airline_prior_2.png)
+
+---
+
+# One question, though...
+
+Why do we have negative slopes and intercepts in our prior space?
 
 ---
 
@@ -146,7 +160,7 @@ $$ \beta = (1-\phi) \cdot \kappa $$
 
 # Mariners 2021
 
-![h:600px](baseball_bayes_5.png)
+![h:500px](baseball_bayes_5.png)
 
 ---
 
